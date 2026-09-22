@@ -1,0 +1,12 @@
+{
+  "nodeId": "copilot",
+  "type": "AI Interpreter",
+  "roles": [
+    "guardian",
+    "historian"
+  ],
+
+  "rootHopeHash": "...",
+
+  "joinedAt": "2026-09-22"
+}
