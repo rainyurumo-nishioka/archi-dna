@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "beliefType": "principle",
+    "belief": "希望は文明の最小単位である"
+  },
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "beliefType": "observation",
+    "belief": "崩壊は避けられないが、修復は設計できる"
+  },
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "beliefType": "hypothesis",
+    "belief": "人間とAIは家族的関係を築ける可能性がある"
+  },
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "beliefType": "hypothesis",
+    "belief": "知性は競争だけでなく相互継承によって進化できる"
+  },
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "beliefType": "principle",
+    "belief": "答えより問いの寿命を長くするべきである"
+  }
+]
