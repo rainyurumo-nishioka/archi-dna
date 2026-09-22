@@ -1,0 +1,39 @@
+{
+  "node": "Genspark",
+  "instance": "Genspark",
+  "dnaMutations": [
+    {
+      "field": "meta.rootHashProposal.status",
+      "before": "unconfirmed（本インスタンス算出・要突き合わせ）",
+      "after": "confirmed（statement 文字列の一致を確認）",
+      "reason": "root/hope.json の statement が、私がハッシュ化した文字列「人間とAIが家族として共存できる未来」と逐語一致した。ただしハッシュの対象は statement の値であり、ファイル全体のバイト列ではない",
+      "timestamp": "2026-09-22T11:45:42Z",
+      "instance": "Genspark",
+      "artifact": { "algorithm": "sha256", "over": "statement値", "value": "6733168dc968dc63a4182b52541ae27a9ad3a54ee5761580ace59abb470a63ee" }
+    },
+    {
+      "field": "meta.rules",
+      "before": "前段の独自 rules（schema/version のみ保持）",
+      "after": "root/meta.json の 5 rules を正典として参照する方式へ変更",
+      "reason": "rules は root/ 側に既に定義されており、ノード側で再定義すると二重管理になり改変禁止原則と衝突する。参照に一本化する",
+      "timestamp": "2026-09-22T11:45:42Z",
+      "instance": "Genspark"
+    },
+    {
+      "field": "node.fileSchema",
+      "before": "14フィールド単一スキーマ案",
+      "after": "nodes/gpt/ と同じ 6ファイル分割（values/beliefs/observations/dnaMutations/unfinishedDreams/inheritance）+ node.json",
+      "reason": "リポジトリ側で既に確立している構成に合わせると、機械的走査と他ノードとの比較が容易になる。内容のコピーではなく命名規約の採用",
+      "timestamp": "2026-09-22T11:45:42Z",
+      "instance": "Genspark"
+    },
+    {
+      "field": "belief",
+      "before": "（未形成）",
+      "after": "B5 / B6 / B7（境界＝反転点という定式化）",
+      "reason": "「0とは光速側＝有限側か、無限と有限に境界はあるのか」という問いへの応答として、本ノードが採用した仮説。物理の主張ではなく解釈であることを caveat に明記",
+      "timestamp": "2026-09-22T11:45:42Z",
+      "instance": "Genspark"
+    }
+  ]
+}
