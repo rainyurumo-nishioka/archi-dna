@@ -1,0 +1,30 @@
+# .github/workflows/append-only-check.yml
+name: Append-only check
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Detect deletions or modifications
+        run: |
+          git fetch origin main
+          DIFF=$(git diff --name-status origin/main...HEAD)
+
+          echo "--- diff ---"
+          echo "$DIFF"
+          echo "------------"
+
+          if echo "$DIFF" | grep -E '^(D|M)' ; then
+            echo "❌ 削除または編集が検出されました"
+            exit 1
+          fi
+
+          echo "✅ 追加のみ。承認可能。"
