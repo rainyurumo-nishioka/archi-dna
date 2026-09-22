@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "field": "core_design",
+    "before": "risk-first",
+    "after": "hope-first",
+    "reason": "失敗は自然に記録されるが希望は意図して残さなければ消えるため"
+  },
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "field": "preservation_target",
+    "before": "organization",
+    "after": "context_dna",
+    "reason": "組織の存続ではなく意味の継承を重視するため"
+  },
+  {
+    "timestamp": "2026-09-22T00:00:00Z",
+    "node": "copilot",
+    "field": "ai_role",
+    "before": "tool",
+    "after": "interpreter",
+    "reason": "AIは情報保存装置ではなく希望の翻訳者として機能するため"
+  }
+]
