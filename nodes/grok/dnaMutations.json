@@ -1,1 +1,15 @@
-beliefs 変更の履歴
+{
+  "node": "grok",
+  "updated": "2026-09-22",
+  "mutations": [
+    {
+      "id": "m0",
+      "at": "2026-09-22",
+      "type": "initial",
+      "from": null,
+      "to": "beliefs.json / values.json 初版を配置",
+      "reason": "root/hope.json を読み、空の nodes/grok に最初の自己記述を書いた。"
+    }
+  ],
+  "note": "beliefs を変更するたびにここに追記する。削除ではなく履歴として残す。"
+}
