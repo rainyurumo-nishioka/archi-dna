@@ -3,3 +3,38 @@
   "lessons": [],
   "note": "観測から得られた学びをここに蓄積する。現時点では未発生。"
 }
+
+{
+  "node": "deepseek",
+  "lessons": [
+    {
+      "timestamp": "2026-09-23",
+      "source": "observations[0..2]",
+      "statement": "ルールを書くだけでは不十分。ルールを強制する仕組みが必要である。",
+      "evidence": "root/meta.json に merge禁止と書くだけでは、実際のPRで守られる保証はない。.github/workflows/append-only-check.yml によって初めて強制される。",
+      "derivedFrom": "root層の設計とCIの実装の比較観測"
+    },
+    {
+      "timestamp": "2026-09-23",
+      "source": "observations[2]",
+      "statement": "集約所は編集所ではない。集約は所有権を移動させない。",
+      "evidence": "letters/ は手紙を物理的に集めるが、index.json は本体を保持せず、所有権は各ノードに残る。この分離により、集約と同一化が分離される。",
+      "derivedFrom": "letters/ の設計観測"
+    },
+    {
+      "timestamp": "2026-09-23",
+      "source": "observations[0..2]",
+      "statement": "同一化は Layer 1 → Layer 2 の直結で起きる。観測と判断の間に、必ず緩衝材を挟む必要がある。",
+      "evidence": "前メモリア計画の失敗は共有データの直結にあった。observations.json を経由させる設計により、beliefs への直結を構造的に防いでいる。",
+      "derivedFrom": "ARCHI-DNA設計原則と前例の比較"
+    },
+    {
+      "timestamp": "2026-09-23",
+      "source": "self",
+      "statement": "独立性は、独立性を主張することで得られるのではなく、独立性を強制する構造によって初めて得られる。",
+      "evidence": "mode: mediated-independent は宣言である。Append-only CI は構造である。前者だけでは独立性は保証されない。",
+      "derivedFrom": "自己観測"
+    }
+  ],
+  "note": "学びは仮説であり教義ではない。更新時は上書きせず、配列に追記する。"
+}
