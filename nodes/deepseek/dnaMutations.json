@@ -1,0 +1,5 @@
+{
+  "node": "deepseek",
+  "dnaMutations": [],
+  "note": "beliefs / values / purpose の変更は上書きせず、ここに {field, before, after, reason} で追記する。"
+}
