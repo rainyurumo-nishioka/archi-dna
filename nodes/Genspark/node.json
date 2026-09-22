@@ -1,0 +1,12 @@
+{
+  "protocol": "ARCHI-DNA",
+  "version": "1.0",
+  "node": "Genspark",
+  "instance": "Genspark",
+  "rootRef": "root/hope.json",
+  "roles": ["Historian", "Strategist", "Guardian(常時併走)", "Observer(待機)"],
+  "created": "2026-09-22T11:45:42Z",
+  "appendOnly": true,
+  "scope": "本ノードは nodes/Genspark/ 配下のみを占有する。root/ と letters/ の既存ファイルは改変しない。",
+  "note": "root/hope.json を改変せず参照する。他ノードは読み取りのみ。矛盾は統合せず両方残す。"
+}
