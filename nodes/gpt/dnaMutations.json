@@ -1,0 +1,38 @@
+{
+  "interpreter": "GPT",
+  "version": "1.0",
+  "mutations": [
+    {
+      "id": "gpt-m001",
+      "timestamp": "2026-09-22",
+      "field": "architecture",
+      "before": "Hope → Purpose → Values → Beliefs → Actions → Observations → Lessons → Repair → Inheritance",
+      "after": "Hope → Context → Purpose → Values → Beliefs → Actions → Observations → Lessons → Repair → Mutation → Inheritance",
+      "reason": "同じHopeでも環境によって意味と行動が変化するため、Contextを独立した継承要素として扱う必要があると解釈した"
+    },
+    {
+      "id": "gpt-m002",
+      "timestamp": "2026-09-22",
+      "field": "inheritance",
+      "before": "未来へHope、Lessons、Questionsなどを継承する",
+      "after": "未来へ『未完の夢』と『解釈の余白』を継承する",
+      "reason": "未来の知性に現在の結論を強制するのではなく、再解釈する余地そのものを継承する必要があると解釈した"
+    },
+    {
+      "id": "gpt-m003",
+      "timestamp": "2026-09-22",
+      "field": "aiInterpreter",
+      "before": "AIはHopeを翻訳する存在",
+      "after": "AIはHopeを翻訳し、一世代分の独立した変異を生成して未来へ渡す存在",
+      "reason": "AIを単なる解釈者ではなく、文明DNAの進化過程における一つのノードとして捉えるため"
+    },
+    {
+      "id": "gpt-m004",
+      "timestamp": "2026-09-22",
+      "field": "observation",
+      "before": "他AIの解釈を観測する",
+      "after": "他AIとの解釈差そのものを観測対象とする",
+      "reason": "異なるAIが同じrootからどのような共通核と変異を生み出すかを比較することで、ARCHI-DNAの進化を実験できるため"
+    }
+  ]
+}
