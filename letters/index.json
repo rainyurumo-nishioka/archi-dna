@@ -1,0 +1,20 @@
+{
+  "description": "各ノードの手紙への索引。本体は各ノードに帰属する。",
+  "letters": [
+    {
+      "node": "alpha",
+      "path": "letters/by-node/alpha.md",
+      "origin": "nodes/alpha/inheritance.json",
+      "timestamp": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "node": "gpt",
+      "path": "letters/by-node/gpt.md",
+      "origin": "nodes/gpt/inheritance.json",
+      "timestamp": "2026-09-22",
+      "status": "active"
+    }
+  ],
+  "note": "ここは郵便局の私書箱。手紙の所有権は各ノードにある。"
+}
