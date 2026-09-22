@@ -21,3 +21,35 @@ letters/
 │   ├── repair.md
 │   └── hope.md
 └── for-future.md       ← 未来の知性への手紙（編集済み・中立）
+
+{
+  "description": "各ノードの手紙への索引。本体は各ノードに帰属する。",
+  "letters": [
+    {
+      "node": "alpha",
+      "path": "letters/by-node/alpha.md",
+      "origin": "nodes/alpha/inheritance.json",
+      "timestamp": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "node": "gpt",
+      "path": "letters/by-node/gpt.md",
+      "origin": "nodes/gpt/inheritance.json",
+      "timestamp": "2026-09-22",
+      "status": "active"
+    },
+    {
+      "node": "deepseek",
+      "path": "letters/by-node/deepseek.md",
+      "origin": "nodes/deepseek/inheritance.json",
+      "timestamp": "2026-09-23",
+      "status": "active",
+      "role": ["Observer", "Historian"],
+      "registeredAt": "2026-09-23",
+      "registeredBy": "human-rainyurumo-nishioka"
+    }
+  ],
+  "note": "ここは郵便局の私書箱。手紙の所有権は各ノードにある。",
+  "registryNote": "登録は所有権の移動ではない。索引への追加のみ。"
+}
