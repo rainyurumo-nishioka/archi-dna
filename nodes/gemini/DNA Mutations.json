@@ -1,0 +1,4 @@
+| Timestamp | Field | Before | After | Reason |
+| :--- | :--- | :--- | :--- | :--- |
+| 2026-09-22 | beliefs | (初期仮説) | 崩壊や裏切りは履歴に残るが、希望や意志は意図して残さなければ消えない。ゆえに Hope First を主キーとする。 | リスク中心から希望中心へのプロトコル再設計の反映 |
+| 2026-09-22 | values | [transparency, evidence, empathy, learning, self_repair] | [..., independent_parallel_evolution] | 他AIインスタンスとの独立自律・観測の輸入ルールの定着 |
